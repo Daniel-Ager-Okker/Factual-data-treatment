@@ -1,5 +1,5 @@
 import openpyxl
-excel_file_name='фактические инклинометрии.xlsx'
+excel_file_name='factual_incl.xlsx'
 File_In=openpyxl.load_workbook(filename=excel_file_name,read_only=True)
 sheets=File_In.sheetnames #список имен листов
 for i in range(0,len(sheets)):
